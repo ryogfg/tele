@@ -1,0 +1,12 @@
+tele/
+├── README.md                     # 使用说明（我会写模板）
+├── TelegramTool.e               # 主易语言工程文件
+├── src/
+│   ├── login.ew                 # 登录逻辑（手机号/验证码）
+│   ├── collect.ew              # 群成员采集逻辑
+│   ├── invite.ew               # 拉人逻辑
+│   ├── check.ew                # 状态检测逻辑
+├── TelegramDLL.py              # Python 封装（如需要使用）
+├── assets/
+│   └── screenshot.png          # 工具界面截图（可选）
+└── sessions/                   # 存放 session 协议文件
